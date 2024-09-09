@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Tienda Virtual </title>
+	<link rel="stylesheet" href="static/css/estilos.css"> <!-- Enlace a tu hoja de estilos CSS -->
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="Inicio.html">Inicio</a></li>
+				<li><a href="productos.html">Productos</a></li>
+				<li><a href="servicios.html">Servicios</a></li>
+				<li><a href="#">Contacto</a></li>
+                <li><a href="#">inicir cecion</a></li>
+                <li><a href="#">crear cuenta </a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section class="bienvenida">
+			<h1>Bienvenidos a nuestra Tienda </h1>
+			<p>Encontrá los mejores productos y ofertas en un solo lugar.</p>
+			<button>Comenzar a comprar</button>
+		</section>
+	</main>
+	<footer>
+		<p> 2023 Tienda Virtual . Todos los derechos reservados.</p>
+	</footer>
+</body>
+</html>
+
+{% extends './base.html' %}
+
+{% block title%} Index {% endblock %}
+
+{% block body %}
+<h1>Bienvenido o bienvenida!!!</h1>
+{% endblock %}
